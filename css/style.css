@@ -1,0 +1,67 @@
+/*Selector Universal*/
+
+*{
+   background-color:#FFF5E4;
+
+
+    /*color de texto*/
+    color:#850E35;
+}
+
+/*De Etiqueta*/
+
+h1{
+    color:#EE6983;
+}
+
+h2{color:#FFC4C4;
+}
+
+
+/*De clase*/
+
+.serif{
+    /*tipografia*/
+    font-family: sans-serif;
+
+    /*tamaño*/
+    font-size: xx-large;
+
+    /*peso*/
+    font-weight: 800;
+
+    /*Alineacion*/
+    text-align: center;
+}
+
+/*De ID*/
+
+#color{
+    color: black;
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+/*mediaqueries*/
+@media only screen and (max-width: 600px){
+    
+    body{
+    background-color: aquamarine;
+    }
+
+    p{
+    color: black;
+    }
+
+}
+
+img, video{
+    /*ancho*/
+    width: 400px;
+
+    /*altura*/
+    height:  ;
+}
